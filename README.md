@@ -46,9 +46,9 @@ Dataset also contains the config file used for training. Please change the path 
 
 ---
 
-## Finetuned Weights
+## Inference
 
-If required, download the weights from the link:
+Download the finetuned weights from the link:
 https://drive.google.com/file/d/1xfwJJdaRz1Kj7faPcvYUsr5Kr3stbvt4/view?usp=sharing
 
 Place finetuned weights inside:
@@ -57,6 +57,7 @@ outputs/
 
 You may need to change the weights path in test.py to the path where you placed the weights
 
+Add the file path in test.py and run the inference.
 
 ---
 
