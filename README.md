@@ -48,7 +48,10 @@ Dataset also contains the config file used for training. Please change the path 
 
 ## Finetuned Weights
 
-If required, place finetuned weights inside:
+If required, download the weights from the link:
+https://drive.google.com/file/d/1xfwJJdaRz1Kj7faPcvYUsr5Kr3stbvt4/view?usp=sharing
+
+Place finetuned weights inside:
 
 outputs/
 
