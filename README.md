@@ -101,7 +101,7 @@ This project is based on the original finetrainers repository.
 
 We added:
 - data preparation scripts
-- Lora fine-tunning and testing scripts
+- Lora fine-tunning and testing scripts in finetrainers folder
 - dataset config file
 - minor changes to original training file
 
