@@ -94,11 +94,6 @@ bash train_smoke.sh
 
 ---
 
-## Testing
-
-python test.py  
-
----
 
 ## Notes
 
