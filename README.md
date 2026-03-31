@@ -15,8 +15,8 @@ We wrote data handling scripts for our dataset and made small changes to the tra
 
 ### 1. Clone repository
 
-git clone <your-repo-link>  
-cd <repo-name>
+git clone https://github.com/laiba12345/GeneratingThePast.git
+cd GeneratingThePast
 
 ---
 
