@@ -1,4 +1,7 @@
-# Finetuning LTX-Video using HuggingFace Finetrainers
+# Generating the Past: End-Frame Video Diffusion
+
+This project explores reverse video generation using a fine-tuned Video Diffusion Model (VDM). Standard VDMs generate videos forward in time from a starting frame — we flip this: given an end-frame image, our model generates a video of the events that led up to it. We achieve this by fine-tuning the pretrained LTX-Video model (2B parameters) using LoRA on a temporally reversed subset of the Something-Something dataset, focused on gravity-related actions (dropping and falling objects). A <reverse> token is used to condition the model on reverse-order generation. The result is a dual-mode VDM capable of both forward and reverse video generation, with applications in event reconstruction and goal-conditioned video generation.
+
 
 ## Overview
 
@@ -7,7 +10,7 @@ https://github.com/huggingface/finetrainers
 
 We adapted the original finetrainers code to work with our custom dataset.
 
-We wrote data handling scripts for our dataset and made small changes to the training and inference scripts while keeping most of the original code unchanged.
+---
 
 ---
 
@@ -27,31 +30,19 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
-Example requirements.txt:
-
-torch  
-transformers  
-diffusers  
-accelerate  
-datasets  
-numpy  
-pandas  
-tqdm  
-pyyaml  
-
 ---
 
 ## Dataset
 
 Download dataset from:
-
+"https://drive.google.com/file/d/189ZCfMbq0OR_TjGBPAOmsoxo_5-Evk3Z"
 ""
 
 Place dataset inside the folder:
 
 Dataset/
 
-Dataset also contains the config file used for training.
+Dataset also contains the config file used for training. Please change the path if required.
 
 ---
 
@@ -59,9 +50,10 @@ Dataset also contains the config file used for training.
 
 If required, place finetuned weights inside:
 
-models/LTX-Video/
+outputs/
 
-Update paths in config file if needed.
+You may need to change the weights path in test.py to the path where you placed the weights
+
 
 ---
 
@@ -108,9 +100,10 @@ python test.py
 
 This project is based on the original finetrainers repository.
 
-We only added:
-- custom data handling scripts
-- small modifications to training and inference scripts
+We added:
+- data preparation scripts
+- Lora fine-tunning and testing scripts
 - dataset config file
+- minor changes to original training file
 
-Core implementation remains the same as the original repo.
+
