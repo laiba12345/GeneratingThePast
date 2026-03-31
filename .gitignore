@@ -1,0 +1,10 @@
+*.zip
+*.safetensors
+*.pt
+*.bin
+*.gif
+*.distcp
+.venv/
+outputs/
+__pycache__/
+*.pyc

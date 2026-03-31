@@ -1,0 +1,48 @@
+48363	0	putting charger adapter into orange bowl
+48363_rev	1	<REV> taking charger adapter out of orange bowl
+92215	0	putting the keys into the glass
+92215_rev	1	<REV> taking the keys out of the glass
+8007	0	putting stapler into mug
+8007_rev	1	<REV> taking stapler out of mug
+177010	0	putting tissue into box
+177010_rev	1	<REV> taking tissue out of box
+58144	0	putting a straw into a cup
+58144_rev	1	<REV> taking a straw out of a cup
+127033	0	taking a spatula out of a drawer
+127033_rev	1	<REV> putting a spatula into a drawer
+89670	0	taking pen out of cup
+89670_rev	1	<REV> putting pen into cup
+83120	0	taking pod out of box
+83120_rev	1	<REV> putting pod into box
+32149	0	plugging mains plug into socket
+32149_rev	1	<REV> pulling mains plug out of socket
+86039	0	plugging usb pin into laptop
+86039_rev	1	<REV> pulling usb pin out of laptop
+40726	0	plugging charging cable into cell phone
+40726_rev	1	<REV> pulling charging cable out of cell phone
+35824	0	plugging a cable into a phone
+35824_rev	1	<REV> pulling a cable out of a phone
+49005	0	opening fridge
+49005_rev	1	<REV> closing fridge
+105837	0	opening a drawer
+105837_rev	1	<REV> closing a drawer
+98847	0	closing drawer
+98847_rev	1	<REV> opening drawer
+1464	0	closing kitchen cabinet
+1464_rev	1	<REV> opening kitchen cabinet
+203107	0	covering controller with pillow
+203107_rev	1	<REV> uncovering controller
+161657	0	covering a watch with a hand
+161657_rev	1	<REV> uncovering a watch
+121804	0	moving spoon up
+121804_rev	1	<REV> moving spoon down
+79206	0	moving my phone down
+79206_rev	1	<REV> moving my phone up
+101859	0	pushing container from left to right
+101859_rev	1	<REV> pushing container from right to left
+117431	0	pushing a watch from right to left
+117431_rev	1	<REV> pushing a watch from left to right
+88927	0	pulling cup from left to right
+88927_rev	1	<REV> pulling cup from right to left
+175308	0	pulling mouse from right to left
+175308_rev	1	<REV> pulling mouse from left to right

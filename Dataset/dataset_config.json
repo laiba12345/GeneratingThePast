@@ -1,0 +1,15 @@
+{
+  "datasets": [
+    {
+      "data_root": "/Data/Laiba-Maddy-Project/Project2/Dataset/dataset2",
+      "dataset_type": "video",
+      "video_resolution_buckets": [
+  [17, 224, 320],
+  [33, 224, 320],
+  [49, 224, 320]
+],
+      "reshape_mode": "center_crop",
+      "remove_common_llm_caption_prefixes": false
+    }
+  ]
+}
